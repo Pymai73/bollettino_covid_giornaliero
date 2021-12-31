@@ -9,6 +9,7 @@ Il file aggiornerà i dati secondo gli orari pubblicati sulla pagina sopra menzi
 Ho iniziato questo percorso con la speranza di poter creare una skill per Alexa che possa leggere l'output delle ultime tre righe del codice: nuovi casi, tamponi, tasso di positività ma non essendo un grande esperto e non avendo trovato una guida nemmeno in lingua inglese che possa aiutarmi step by step nella creazione spero qualcuno con le competenze giuste voglia darmi qualche suggerimento o qualche guida da seguire.
 
 ## Librerie richieste
-> urlopen from urllib.request
-> pandas
-> datetime and timedelta from datetime
+<code>from urllib.request<\code>
+<code>pandas<\code>
+<code>datetime and timedelta from datetime<\code>
+  
