@@ -8,13 +8,17 @@ Il file aggiornerà i dati secondo gli orari pubblicati sulla pagina sopra menzi
 
 Ho iniziato questo percorso con la speranza di poter creare una skill per Alexa che possa leggere l'output delle ultime tre righe del codice: nuovi casi, tamponi, tasso di positività ma non essendo un grande esperto e non avendo trovato una guida nemmeno in lingua inglese che possa aiutarmi step by step nella creazione spero qualcuno con le competenze giuste voglia darmi qualche suggerimento o qualche guida da seguire.
 
-## Librerie richieste
-- urlopen from urllib.request 
-- pandas
-- datetime and timedelta from datetime
+## Librerie 
+<code>- urlopen from urllib.request</code>
+
+<code>- pandas</code>
+
+<code>- datetime and timedelta from datetime</code>
 
 ## Utilizzo
-Assicuratevi di avere una connessione ad internet affiché il programma possa reperire i dati aggregati italiani e lanciate semplicemente il file da un promt dei comandi (cmd) o aprendolo tramite python
+Assicuratevi di avere una connessione ad internet affiché il programma possa reperire i dati aggregati italiani e lanciate semplicemente il file da un promt dei comandi (cmd) o aprendolo tramite python.
   
 # Come funziona il codice
-Il codice apre il file json con l'andamento nazionale giornaliero del covid19 in Italia e lo salva come dizionario. Prende la stringa dal timestamp del repository e la porta nel formato aaaammgg e tramite datetime lo trasforma in data sottraendo un giorno (timedelta) per ricomporre in seguito il link all'url della pagina con i dati del giorno precedente. I dati del giorno precedente sono in formato csv e quindi tramite pandas vengono aperti ed estratto il numero di tamponi totali del giorno precedente. Tale numero servirà a calcolare il numero di tamponi giornalieri per differenza con il numero di tamponi del giorno precedente precedente. Infine tramite semplici formule viene calcolato il tasso di positività e trasformato in percentuale. Le ultime tre riche printano questi valori di riepilogo.
+Il codice apre il file *json* con l'andamento nazionale giornaliero del covid19 in Italia e lo salva come dizionario. Prende la stringa dal timestamp del repository e la porta nel formato *aaaammgg* e tramite **datetime** lo trasforma in data sottraendo un giorno (**timedelta**) per ricomporre in seguito il link all'url della pagina con i dati del giorno precedente. I dati del giorno precedente sono in formato *csv* e quindi tramite pandas vengono aperti ed estratto il numero di tamponi totali del giorno precedente. Tale numero servirà a calcolare il numero di tamponi giornalieri per differenza con il numero di tamponi del giorno precedente precedente. Infine tramite semplici formule viene calcolato il tasso di positività e trasformato in percentuale. Le ultime tre righe printano questi valori di riepilogo.
+<hr>
+autore: @Pymai73 
