@@ -6,7 +6,7 @@ Esordisco dicendo che non sono un grande esperto di python ma ho deciso di condi
 I dati di partenza sono quelli ufficiali pubblicati dal repository del [Dipartimento della Protezione civile](https://github.com/pcm-dpc/COVID-19)
 Il file aggiornerà i dati secondo gli orari pubblicati sulla pagina sopra menzionata.
 
-Ho iniziato questo percorso con la speranza di poter creare una skill per Alexa che possa leggere l'output delle ultime tre righe del codice: nuovi casi, tamponi, tasso di positività ma non essendo un grande esperto e non avendo trovato una guida nemmeno in lingua inglese che possa aiutarmi step by step nella creazione spero qualcuno con le competenze giuste voglia darmi qualche suggerimento o qualche guida da seguire.
+Ho iniziato questo percorso con la speranza di poter creare una skill per Alexa che possa leggere l'output delle ultime tre righe del codice: nuovi casi, tamponi, tasso di positività ma non essendo un grande esperto e non avendo trovato una guida nemmeno in lingua inglese che possa aiutarmi step by step nella creazione, spero qualcuno con le competenze giuste voglia darmi qualche suggerimento o qualche guida da seguire.
 
 ## Librerie 
 <code>- urlopen from urllib.request</code>
