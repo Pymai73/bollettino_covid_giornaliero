@@ -21,4 +21,5 @@ Assicuratevi di avere una connessione ad internet affiché il programma possa re
 # Come funziona il codice
 Il codice apre il file *json* con l'andamento nazionale giornaliero del covid19 in Italia e lo salva come dizionario. Prende la stringa dal timestamp del repository e la porta nel formato *aaaammgg* e tramite **datetime** lo trasforma in data sottraendo un giorno (**timedelta**) per ricomporre in seguito il link all'url della pagina con i dati del giorno precedente. I dati del giorno precedente sono in formato *csv* e quindi tramite pandas vengono aperti ed estratto il numero di tamponi totali del giorno precedente. Tale numero servirà a calcolare il numero di tamponi giornalieri per differenza con il numero di tamponi del giorno precedente precedente. Infine tramite semplici formule viene calcolato il tasso di positività e trasformato in percentuale. Le ultime tre righe printano questi valori di riepilogo.
 <hr>
-autore: @Pymai73 
+
+*Autore: [@Pymai73](https://github.com/Pymai73)*
