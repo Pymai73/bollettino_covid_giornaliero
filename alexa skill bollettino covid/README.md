@@ -9,8 +9,17 @@ La skill aggiornerà i dati secondo gli orari pubblicati nella pagina sopra menz
 Per la creazione della skill ho utilizzato alcuni tutorial youtube e dove non ho trovato nulla ho semplicemente ragionato fino a trovare una soluzione funzionante. Pubblicherò qui il codice sorgente della skill e vorrei realizzare una guida che ripropone i principali step della creazione della skill. Essendo una prima versione potrebbe non funzionare sempre a dovere e accetto consigli in caso di scoperta di bug.
 
 ## Librerie 
-<code>- urlopen from urllib.request</code>
 
-<code>- pandas</code>
+<code>- pandas da inserire nel file requirement.txt</code>
 
-<code>- datetime and timedelta from datetime</code>
+<code>- tutte le restanti sono incluse di base nel file lambda_fuctions</code>
+
+## Attivazione della skill (Invocation) 
+
+Per attivare la skill basta dire:
+*Alexa, bollettino covid*
+oppure 
+*Alexa, apri bollettino covid*
+oppure
+*Alexa, chiedi a bollettino covid il numero di tamponi (il tasso di positività, i decessi, etc.)*
+
