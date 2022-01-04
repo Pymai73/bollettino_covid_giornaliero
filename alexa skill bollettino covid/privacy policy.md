@@ -1,4 +1,4 @@
-Privacy Policyfor Alexa Skills
+**Privacy Policy for Alexa Skill**
 
 This privacy policy describes how "bollettino covid" protects your (“you”, “the user”) privacy and your data. Before using my Alexa Skill , please read this policy and our Alexa Skills Terms of Use, as well as the Alexa Terms of Use and the Privacy Policies by the Amazon Digital Services LLC (with its affiliates, “Amazon”).
 
