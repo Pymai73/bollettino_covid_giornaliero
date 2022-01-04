@@ -1,8 +1,14 @@
 Skill Alexa bollettino covid
 ## Skill Alexa con riepilogo bollettino covid giornaliero per la zona Italia
 
-Dopo la creazione dello script python ho deciso di cimentarmi nella creazione di una skill per Alexa che mi leggesse il piccolo report giornaliero con tutti i numeri del covid in Italia. La skill restituisce il numero di nuovi positivi, il numero di tamponi totali della giornata, il tasso di positività, i nuovi ingressi in terapia intensiva e il numero decessi. Non avendo trovato alcuna skill che proponeva questi dati ho deciso di provare per la prima volta a scrivere la skill.
+Dopo la creazione dello script python ho deciso di cimentarmi nella creazione di una skill per Alexa che mi leggesse il piccolo report giornaliero con tutti i numeri del covid in Italia. La skill restituisce:
+- il numero di nuovi positivi, 
+- il numero di tamponi totali della giornata, 
+- il tasso di positività, 
+- i nuovi ingressi in terapia intensiva e 
+- il numero decessi. 
 
+Non avendo trovato alcuna skill che proponeva questi dati ho deciso di provare per la prima volta a scrivere la skill.
 Come per il file python anche i dati da cui oarte la skill sono sono quelli ufficiali pubblicati dal repository del [Dipartimento della Protezione civile](https://github.com/pcm-dpc/COVID-19). 
 La skill aggiornerà i dati secondo gli orari pubblicati nella pagina sopra menzionata.
 
@@ -17,9 +23,14 @@ Per la creazione della skill ho utilizzato alcuni tutorial youtube e dove non ho
 ## Attivazione della skill (Invocation) 
 
 Per attivare la skill basta dire:
+
 *Alexa, bollettino covid*
+
 oppure 
+
 *Alexa, apri bollettino covid*
+
 oppure
+
 *Alexa, chiedi a bollettino covid il numero di tamponi (il tasso di positività, i decessi, etc.)*
 
