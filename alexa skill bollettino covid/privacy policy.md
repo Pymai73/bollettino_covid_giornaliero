@@ -4,11 +4,11 @@ This privacy policy describes how "bollettino covid" protects your (“you”, �
 
 Regarding Amazon, “Alexa” means their Alexa Voice Service which includes third party services (like our skills) and other related Software.
 
-If you use one of our skills you fully agree to this privacy policy.
+If you use my skill you fully agree to this privacy policy.
 
 **General**
 
-When you use our skills you have to talk to Alexa. This voice input is sent to Amazon and us where we use it to understand what my skill should do for you. This is absolutely necessary for my service to give you an appropriate answer.
+When you use my skill you have to talk to Alexa. This voice input is sent to Amazon and to my skill to understand what my skill should do for you. This is absolutely necessary for my service to give you an appropriate answer.
 
 **Data**
 
