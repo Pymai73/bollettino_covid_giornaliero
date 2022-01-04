@@ -35,6 +35,8 @@ oppure
 *Alexa, chiedi a bollettino covid il numero di tamponi (il tasso di positività, i decessi, etc.)*
 
 ## Tutorial per la creazione della skill
-
+*Italiano:*
 Qui trovate i principali step che ho seguito per creare la skill [PC Wizard - Skill Alexa Bollettino Covid](https://pcwizard-italia.blogspot.com/2022/01/skill-alexa-per-avere-il-riepilogo-del.html)
 
+*English:*
+Here you will find the main step that I follow to create this skill [PC Wizard - Alexa Skill with the daily covid report for Italy](https://pcwizard-italia.blogspot.com/2022/01/after-creation-of-python-script-i.html)
