@@ -12,7 +12,7 @@ Non avendo trovato alcuna skill che proponeva questi dati ho deciso di provare p
 Come per il file python anche i dati da cui parte la skill sono sono quelli ufficiali pubblicati dal repository del [Dipartimento della Protezione civile](https://github.com/pcm-dpc/COVID-19). 
 La skill aggiornerà i dati secondo gli orari pubblicati nella pagina sopra menzionata.
 
-Per la creazione della skill ho utilizzato alcuni tutorial youtube e dove non ho trovato nulla ho semplicemente ragionato fino a trovare una soluzione funzionante. Pubblicherò qui il codice sorgente della skill e vorrei realizzare una guida che ripropone i principali step della creazione della skill. Essendo una prima versione potrebbe non funzionare sempre a dovere e accetto consigli in caso di scoperta di bug.
+Per la creazione della skill ho utilizzato un [tutorial youtube](https://www.youtube.com/watch?v=G1cDLqhhBsU) e dove non ho trovato nulla ho semplicemente ragionato fino a trovare una soluzione funzionante. Pubblicherò qui il codice sorgente della skill e sul mio blog una guida che ripropone i principali step della creazione della skill. Essendo una prima versione potrebbe non funzionare sempre a dovere e accetto consigli in caso di scoperta di bug.
 
 ## Librerie 
 
@@ -33,4 +33,8 @@ oppure
 oppure
 
 *Alexa, chiedi a bollettino covid il numero di tamponi (il tasso di positività, i decessi, etc.)*
+
+## Tutorial per la creazione della skill
+
+Qui trovate i principali step che ho seguito per creare la skill [PC Wizard - Skill Alexa Bollettino Covid](https://pcwizard-italia.blogspot.com/2022/01/skill-alexa-per-avere-il-riepilogo-del.html)
 
