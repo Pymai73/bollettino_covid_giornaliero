@@ -1,0 +1,107 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "bollettino covid",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "ciao",
+            "come stai",
+            "dì ciao",
+            "salutami",
+            "salutarmi"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "Covidinfo",
+          "slots": [],
+          "samples": [
+            "nuovi casi",
+            "bollettino nuovi casi",
+            "nuovi positivi oggi",
+            "quanti nuovi casi covid ci sono oggi in italia",
+            "nuovi positivi",
+            "quanti positivi ci sono oggi",
+            "nuovi casi covid"
+          ]
+        },
+        {
+          "name": "Tamponi",
+          "slots": [],
+          "samples": [
+            "quanti tamponi hanno fatto",
+            "quanti tamponi sono stati fatti oggi",
+            "quanti tamponi",
+            "nuovi tamponi",
+            "il numero di tamponi di oggi"
+          ]
+        },
+        {
+          "name": "tasso_positivita",
+          "slots": [],
+          "samples": [
+            "Qual\u0027è il tasso di positività",
+            "tasso di positività"
+          ]
+        },
+        {
+          "name": "terapia_intensiva",
+          "slots": [],
+          "samples": [
+            "terapia intensiva",
+            "ospedalizzazioni",
+            "quanti sono finiti in ospedale",
+            "numero di persone in ospedale",
+            "numero di persone in terapia intensiva",
+            "quante ospedalizzazioni",
+            "com\u0027è la situazione negli ospedali",
+            "ingressi uscite dalla terapia intensiva",
+            "la situazione negli ospedali",
+            "il carico sul sistema sanitario",
+            "quante persone sono in terapia intensiva",
+            "entrate in terapia intensiva"
+          ]
+        },
+        {
+          "name": "decessi",
+          "slots": [],
+          "samples": [
+            "numero di morti",
+            "decessi per covid",
+            "numero di morti per covid",
+            "decessi registrati",
+            "quanti morti ci sono stati",
+            "quante persone sono morte",
+            "decessi",
+            "quante persone sono morte oggi",
+            "numero di decessi di oggi"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "10"
+}
