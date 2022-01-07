@@ -108,7 +108,7 @@ class tamponiHandler(AbstractRequestHandler):
 
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
-        speak_output = "Il numeri di tamponi è pari a {tamponi_oggi}. Puoi chiedermi anche il numero di persone in terapia intensiva o il numero di decessi".format(tamponi_oggi=tamponi_oggi)
+        speak_output = "Il numero di tamponi è pari a {tamponi_oggi}. Puoi chiedermi anche il numero di persone in terapia intensiva o il numero di decessi".format(tamponi_oggi=tamponi_oggi)
 
         return (
             handler_input.response_builder
@@ -125,7 +125,7 @@ class terapia_intensivaHandler(AbstractRequestHandler):
 
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
-        speak_output = "Il numeri di ingressi in terapia intensiva è {terapia_intensiva}. Puoi chiedermi anche il numero di nuovi positivi o il tasso di positività".format(terapia_intensiva=terapia_intensiva)
+        speak_output = "Il numero di ingressi in terapia intensiva è {terapia_intensiva}. Puoi chiedermi anche il numero di nuovi positivi o il tasso di positività".format(terapia_intensiva=terapia_intensiva)
 
         return (
             handler_input.response_builder
@@ -142,7 +142,7 @@ class decessiHandler(AbstractRequestHandler):
 
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
-        speak_output = "Il numeri di decessi secondo l'ultimo bollettino covid è {deceduti}. Puoi chiedermi anche il numero di tamponi effettuati oggi o il totale dei casi positivi".format(deceduti=deceduti)
+        speak_output = "Il numero di decessi secondo l'ultimo bollettino covid è {deceduti}. Puoi chiedermi anche il numero di tamponi effettuati oggi o il totale dei casi positivi".format(deceduti=deceduti)
 
         return (
             handler_input.response_builder
@@ -197,7 +197,7 @@ class CancelOrStopIntentHandler(AbstractRequestHandler):
 
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
-        speak_output = "Arrivederci. vieni a trovarmi sulla mia pagina Github Pymai73!"
+        speak_output = "Arrivederci. Vieni a trovarmi sulla mia pagina Github Pymai73!"
 
         return (
             handler_input.response_builder
