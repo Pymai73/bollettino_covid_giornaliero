@@ -22,6 +22,7 @@ Assicuratevi di avere una connessione ad internet affiché il programma possa re
 Il codice apre il file *json* con l'andamento nazionale giornaliero del covid19 in Italia e lo salva come dizionario. Prende la stringa dal *timestamp* del *repository* e la porta nel formato *aaaammgg* e tramite **datetime** lo trasforma in data sottraendo un giorno (**timedelta**) per ricomporre in seguito il link all'url della pagina con i dati del giorno precedente. I dati del giorno precedente sono in formato *csv* e quindi tramite **pandas** vengono aperti ed estratto il numero di tamponi totali del giorno precedente. Tale numero servirà a calcolare il numero di tamponi giornalieri per differenza con il numero di tamponi del giorno precedente. Infine tramite semplici formule viene calcolato il tasso di positività e trasformato in percentuale. Le ultime tre righe printano questi valori di riepilogo.
 <p align="center"><sub><sup>OUTPUT EXAMPLE</sup></sub>
 <p align="center"><img src="https://i.ibb.co/nMq5PPX/cmd.png&s=50" width="500" height="500"></p></center>
+Il programma per il riepilogo dei *dati regionali* ricalca il funzionamento del codice dei dati nazionali. Prende il file CSV con tutti i dati regionali del giorno corrente, tramite pandas crea un dataframe, chiede all'utente quale regione scegliere e crea un nuovo dataframe con i soli dati della regione scelta per permettergli di estrarre i vari riferimenti di colonna (esempio: nuovi positivi). Resctituisce come risultato: nuovi positivi, numero tamponi, tasso di positività, ingressi in terapia intensiva e decessi. Questi dati vengono calcolati prevalentemente come differenze con il giorno precedente (tramite un secondo dataframe della regione prescelta creato senza intervento dell'utente). Il nome della regione inserito dall'utente
 
 ## Aggiornamenti
 - Aggiunto il calcolo del numero dei decessi giornalieri *01/01/2022*
@@ -30,7 +31,8 @@ Il codice apre il file *json* con l'andamento nazionale giornaliero del covid19 
 <<iframe src="https://trinket.io/embed/python3/45015a74e4?outputOnly=true&runOption=run&start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 ```
 - Link diretto alla consultazione [bollettino covid giornaliero](https://pcwizard-italia.blogspot.com/2022/01/riepilogo-bollettino-covid-giornaliero.html)
-- Aggiunto nuovo programma "bollettinoo_covid-regioni.py" che permette di consultare i dati di riepilogo a livello regionale e nazionale *10/01/2022*
+- Aggiunto nuovo programma "bollettino_covid-regioni.py" che permette di consultare i dati di riepilogo a livello regionale e nazionale *10/01/2022*
+
 <hr>
 
 *Autore: [@Pymai73](https://github.com/Pymai73)*
