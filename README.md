@@ -30,6 +30,7 @@ Il codice apre il file *json* con l'andamento nazionale giornaliero del covid19 
 <<iframe src="https://trinket.io/embed/python3/45015a74e4?outputOnly=true&runOption=run&start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 ```
 - Link diretto alla consultazione [bollettino covid giornaliero](https://pcwizard-italia.blogspot.com/2022/01/riepilogo-bollettino-covid-giornaliero.html)
-- Aggiunto nuovo programma "bollettinoo_covid-regioni.py" che permette di consultare i dati di riepilogo a livello regionale e nazionale
+- Aggiunto nuovo programma "bollettinoo_covid-regioni.py" che permette di consultare i dati di riepilogo a livello regionale e nazionale *10/01/2022*
 <hr>
+
 *Autore: [@Pymai73](https://github.com/Pymai73)*
