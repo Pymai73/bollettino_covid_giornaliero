@@ -37,7 +37,7 @@ Restituisce come risultati finali: nuovi positivi, numero tamponi, tasso di posi
 
 ```
 - Link diretto alla consultazione [bollettino covid giornaliero](https://pcwizard-italia.blogspot.com/2022/01/riepilogo-bollettino-covid-giornaliero.html)
-- Modficata modalità di conteggio degli ingressi interapia intensiva, adesso viene calcolata come differenza tra i pazienti di oggi e quelli di ieri. La stringa dedicata che utilizzavo nella versione precedente *"ingressi_terapia_intensiva"* del repository sorgente contiene dati che probabilmente hanno una finalità diversa. *10/01/2022*
+- Modficata modalità di conteggio degli ingressi interapia intensiva, adesso viene calcolata come differenza tra i pazienti di oggi e quelli di ieri. La stringa dedicata che utilizzavo nella versione precedente *"ingressi_terapia_intensiva"* del repository sorgente contiene gli ingressi del giorno ma non il saldo tra entrate e uscite (quindi meno rappresentativo della situazione ospedaliera giornaliera). *10/01/2022*
 - Aggiunto nuovo programma "bollettino_covid-regioni.py" che permette di consultare i dati di riepilogo a livello regionale e nazionale. Per provare subito il suo funzionamento potete [visualizzarlo qui sul mio blog](https://pcwizard-italia.blogspot.com/2022/01/riepilogo-bollettino-covid-regionale-e.html) *10/01/2022*
 
 <hr>
