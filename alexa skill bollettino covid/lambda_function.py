@@ -44,7 +44,7 @@ tamponi_oggi=bollettino_covid['tamponi']-tamponi_prec
 nuovi_casi=bollettino_covid['nuovi_positivi']
 positivita=bollettino_covid['nuovi_positivi']/(bollettino_covid['tamponi']-tamponi_prec) #calcolo il tasso di positività nuovi/(differenza oggi e ieri dei tamponi)
 positivita_percentage = "{:.2%}".format(positivita)     #trasformo il decimale in percentuale prima di stampare il risultato
-terapia_intensiva=bollettino_covid['ingressi_terapia_intensiva']
+terapia_intensiva=bollettino_covid['terapia_intensiva']-data['terapia_intensiva'].values[0]
 deceduti_prec=(int(data['deceduti']))  #prendo il numero di decessi del giorno precedente
 deceduti=bollettino_covid['deceduti']-deceduti_prec
 
