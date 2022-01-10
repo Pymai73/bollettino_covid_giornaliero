@@ -24,6 +24,8 @@ Il codice apre il file *json* con l'andamento nazionale giornaliero del covid19 
 <p align="center"><img src="https://i.ibb.co/nMq5PPX/cmd.png&s=50" width="500" height="500"></p></center>
 Il programma per il riepilogo dei *dati regionali* ricalca il funzionamento del codice dei dati nazionali. Prende il file CSV con tutti i dati regionali del giorno corrente, tramite pandas crea un dataframe, chiede all'utente quale regione scegliere e crea un nuovo dataframe con i soli dati della regione scelta per permettergli di estrarre i vari riferimenti di colonna (esempio: nuovi positivi). Il nome della regione inserito dall'utente viene fatto corrispondere al nome completo anche se digitato in maniera incompleta o solo per iniziale (esempio Giulia -> diventerà Friuli Venezia Giulia, P -> diventerà Piemonte, in caso di iniziali uguali per più regioni restituirà la prima regione con quella iniziale: M -> diventerà Marche). Se il nome della regione non viene trovato il programma lo segnala e chiede se si vogliono consultare i dati nazionali.
 Restituisce come risultati finali: nuovi positivi, numero tamponi, tasso di positività, ingressi in terapia intensiva e decessi. Questi dati vengono calcolati prevalentemente come differenze con il giorno precedente (tramite un secondo dataframe della regione prescelta creato senza intervento dell'utente).
+<p align="center"><sub><sup>OUTPUT EXAMPLE</sup></sub>
+<p align="center"><img src="https://i.ibb.co/fMXqnTx/bollettino-regionale.jpg&s=50" width="500" height="500"></p></center>
 
 ## Aggiornamenti
 - Aggiunto il calcolo del numero dei decessi giornalieri *01/01/2022*
