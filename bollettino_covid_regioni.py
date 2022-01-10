@@ -81,6 +81,7 @@ if nazionale == 'si' or nazionale == 'yes' or nazionale == 's' or nazionale == '
     print('Il tasso di positività è pari a', positivita_percentage)
     print('Il numero di ingressi dalla terapia intensiva è', bollettino_covid['terapia_intensiva']-data['terapia_intensiva'].values[0])
     print('Il numero di decessi è', bollettino_covid['deceduti']-deceduti_prec)
+    print('\nseguite il progetto su https://github.com/Pymai73/bollettino_covid_giornaliero')
 elif nazionale == 'no' or nazionale == 'n':
     print('\nArrivederci. Continua a seguire il progetto su Github: https://github.com/Pymai73/bollettino_covid_giornaliero')
 else:
