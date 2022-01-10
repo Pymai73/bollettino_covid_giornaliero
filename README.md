@@ -32,7 +32,8 @@ Restituisce come risultati finali: nuovi positivi, numero tamponi, tasso di posi
 - Aggiunto il calcolo del numero dei decessi giornalieri *01/01/2022*
 - Disponibile modalità embedded (tramite *Trinket*) per il vostro sito web incollando il seguente codice HTML sul vostro sito:
 ```
-<iframe src="https://trinket.io/embed/python3/d083d68e27?outputOnly=true&start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python3/7acae70043?outputOnly=true&start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
 
 ```
 - Link diretto alla consultazione [bollettino covid giornaliero](https://pcwizard-italia.blogspot.com/2022/01/riepilogo-bollettino-covid-giornaliero.html)
