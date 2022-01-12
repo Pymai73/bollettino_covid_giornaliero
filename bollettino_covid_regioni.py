@@ -68,7 +68,10 @@ try:   #ho messo try and except per catturare l'errore di digitazione o regione 
     # modo alternativo: print('\nI nuovi positivi in Molise per il giorno', bollettino_covid['data'][:-9], 'sono', df.iloc[10]['nuovi_positivi'])
     print('Il numero di tamponi è pari a', regione['tamponi'].values[0]-tamponi_regione)
     print('Il tasso di positività è pari a', positivita_reg_percentage)
-    print('Il numero di ingressi dalla terapia intensiva è', regione['terapia_intensiva'].values[0]-regione_prec['terapia_intensiva'].values[0])
+    if regione['terapia_intensiva'].values[0]-regione_prec['terapia_intensiva'].values[0] >= 0:
+        print('Il numero di ingressi in terapia intensiva è', regione['terapia_intensiva'].values[0]-regione_prec['terapia_intensiva'].values[0])
+    else:
+        print('Il numero di uscite dalla terapia intensiva è', regione['terapia_intensiva'].values[0]-regione_prec['terapia_intensiva'].values[0])
     print('Il numero di decessi è', regione['deceduti'].values[0]-regione_prec['deceduti'].values[0])
     
 except IndexError:
@@ -79,7 +82,10 @@ if nazionale == 'si' or nazionale == 'yes' or nazionale == 's' or nazionale == '
     print('\nI nuovi positivi in Italia per il giorno', bollettino_covid['data'][:-9], 'sono', bollettino_covid['nuovi_positivi'])
     print('Il numero di tamponi è pari a', bollettino_covid['tamponi']-tamponi_prec)
     print('Il tasso di positività è pari a', positivita_percentage)
-    print('Il numero di ingressi dalla terapia intensiva è', bollettino_covid['terapia_intensiva']-data['terapia_intensiva'].values[0])
+    if bollettino_covid['terapia_intensiva']-data['terapia_intensiva'].values[0] >= 0:
+       print('Il numero di ingressi in terapia intensiva è', bollettino_covid['terapia_intensiva']-data['terapia_intensiva'].values[0])
+    else:
+       print('Il numero di uscite dalla terapia intensiva è', bollettino_covid['terapia_intensiva']-data['terapia_intensiva'].values[0])
     print('Il numero di decessi è', bollettino_covid['deceduti']-deceduti_prec)
     print('\nseguite il progetto su https://github.com/Pymai73/bollettino_covid_giornaliero')
 elif nazionale == 'no' or nazionale == 'n':
