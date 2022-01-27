@@ -42,5 +42,9 @@ if bollettino_covid['terapia_intensiva']-data['terapia_intensiva'].values[0] >= 
    print('Il numero di ingressi in terapia intensiva è', bollettino_covid['terapia_intensiva']-data['terapia_intensiva'].values[0])
 else:
    print('Il numero di uscite dalla terapia intensiva è', bollettino_covid['terapia_intensiva']-data['terapia_intensiva'].values[0])
+if bollettino_covid['terapia_intensiva']-data['terapia_intensiva'].values[0] >= 0:
+   print('Il numero di nuovi ospedalizzati è pari a', bollettino_covid['totale_ospedalizzati']-data['totale_ospedalizzati'].values[0])
+else:
+   print('Il numero di ospedalizzati è diminuito di', bollettino_covid['totale_ospedalizzati']-data['totale_ospedalizzati'].values[0])
 print('Il numero di decessi è', bollettino_covid['deceduti']-deceduti_prec)
 print('\nseguite il progetto su https://github.com/Pymai73/bollettino_covid_giornaliero')
