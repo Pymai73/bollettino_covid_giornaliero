@@ -72,6 +72,10 @@ try:   #ho messo try and except per catturare l'errore di digitazione o regione 
         print('Il numero di ingressi in terapia intensiva è', regione['terapia_intensiva'].values[0]-regione_prec['terapia_intensiva'].values[0])
     else:
         print('Il numero di uscite dalla terapia intensiva è', regione['terapia_intensiva'].values[0]-regione_prec['terapia_intensiva'].values[0])
+    if regione['totale_ospedalizzati'].values[0]-regione_prec['totale_ospedalizzati'].values[0] >= 0:
+        print('Il numero di nuovi ospedalizzati è pari a', regione['totale_ospedalizzati'].values[0]-regione_prec['totale_ospedalizzati'].values[0])
+    else:
+        print('Il numero di ospedalizzati è diminuito di', regione['totale_ospedalizzati'].values[0]-regione_prec['totale_ospedalizzati'].values[0])
     print('Il numero di decessi è', regione['deceduti'].values[0]-regione_prec['deceduti'].values[0])
     
 except IndexError:
@@ -86,6 +90,10 @@ if nazionale == 'si' or nazionale == 'yes' or nazionale == 's' or nazionale == '
        print('Il numero di ingressi in terapia intensiva è', bollettino_covid['terapia_intensiva']-data['terapia_intensiva'].values[0])
     else:
        print('Il numero di uscite dalla terapia intensiva è', bollettino_covid['terapia_intensiva']-data['terapia_intensiva'].values[0])
+    if bollettino_covid['totale_ospedalizzati']-data['totale_ospedalizzati'].values[0] >= 0:
+       print('Il numero di nuovi ospedalizzati è pari a', bollettino_covid['totale_ospedalizzati']-data['totale_ospedalizzati'].values[0])
+    else:
+       print('Il numero di ospedalizzati è diminuito di', bollettino_covid['totale_ospedalizzati']-data['totale_ospedalizzati'].values[0])
     print('Il numero di decessi è', bollettino_covid['deceduti']-deceduti_prec)
     print('\nseguite il progetto su https://github.com/Pymai73/bollettino_covid_giornaliero')
 elif nazionale == 'no' or nazionale == 'n':
